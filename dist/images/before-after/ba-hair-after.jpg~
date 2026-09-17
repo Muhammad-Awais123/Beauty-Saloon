@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+    <!-- Solid Background -->
+    <rect width="800" height="600" fill="#1E3B2B"/>
+    
+    <!-- Subtle Elegant Grid / Geometric Geometry (Solid Colors Only) -->
+    <rect x="24" y="24" width="752" height="552" rx="8" fill="none" stroke="#AFC5B3" stroke-width="1" stroke-opacity="0.25"/>
+    <rect x="36" y="36" width="728" height="528" rx="6" fill="none" stroke="#AFC5B3" stroke-width="1" stroke-opacity="0.12"/>
+    
+    <!-- Category Pill -->
+    
+      <g transform="translate(50, 60)">
+        <rect width="160" height="32" rx="16" fill="#AFC5B3" fill-opacity="0.18"/>
+        <text x="80" y="21" font-family="'DM Sans', sans-serif" font-size="12" font-weight="600" fill="#FFFFFF" text-anchor="middle" letter-spacing="1.5">POST 3 SESSIONS</text>
+      </g>
+    
+
+    <!-- Icon Graphic -->
+    <g transform="translate(0, 0)">
+      <path d="M400 160 L415 225 L480 240 L415 255 L400 320 L385 255 L320 240 L385 225 Z" fill="#AFC5B3" opacity="0.85"/>
+              <circle cx="340" cy="180" r="8" fill="#AFC5B3" opacity="0.6"/>
+              <circle cx="460" cy="300" r="6" fill="#AFC5B3" opacity="0.6"/>
+    </g>
+
+    <!-- Content Block -->
+    <g transform="translate(400, 490)">
+      
+        <rect x="-80" y="-70" width="160" height="24" rx="4" fill="#AFC5B3" fill-opacity="0.3"/>
+        <text x="0" y="-54" font-family="'DM Sans', sans-serif" font-size="11" font-weight="600" fill="#FFFFFF" text-anchor="middle">16 Weeks Exosomes</text>
+      
+      <text x="0" y="-15" font-family="'Playfair Display', Georgia, serif" font-size="28" font-weight="700" fill="#FFFFFF" text-anchor="middle">After 16 Weeks</text>
+      <text x="0" y="18" font-family="'DM Sans', sans-serif" font-size="14" font-weight="400" fill="#FFFFFF" fill-opacity="0.8" text-anchor="middle">Dense Follicle Regrowth</text>
+    </g>
+  </svg>

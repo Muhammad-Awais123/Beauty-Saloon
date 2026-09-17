@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+
+  body {
+    background-color: #FBFBF9;
+    color: #191A1C;
+    font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+
+  h1, h2, h3, h4, .font-serif {
+    font-family: 'Playfair Display', Georgia, serif;
+    letter-spacing: -0.015em;
+  }
+}
+
+/* Interactive Card & Button Micro-interactions */
+.card-hover-effect {
+  transition: transform 0.28s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.28s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.2s ease;
+}
+.card-hover-effect:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 30px -6px rgba(27, 44, 34, 0.12);
+}
+
+.button-press-effect {
+  transition: transform 0.15s ease, background-color 0.15s ease, box-shadow 0.15s ease;
+}
+.button-press-effect:active {
+  transform: scale(0.97);
+}
+
+.subtle-lift {
+  transition: transform 0.25s ease-out, box-shadow 0.25s ease-out;
+}
+.subtle-lift:hover {
+  transform: translateY(-2px);
+}
+
+/* Custom minimal scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F4F5F0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #CFDDD1;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #AFC5B3;
+}
+
+/* Print utilities for receipts & reports */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+}
+

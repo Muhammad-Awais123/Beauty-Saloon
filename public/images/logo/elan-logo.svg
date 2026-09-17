@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 64" width="320" height="64">
+  <!-- Minimalist Aesthetic Leaf/Gem Icon -->
+  <g transform="translate(12, 10)">
+    <circle cx="22" cy="22" r="21" fill="#2A4636"/>
+    <path d="M22 8 C15 15 15 29 22 36 C29 29 29 15 22 8 Z" fill="#FAF8F5"/>
+    <circle cx="22" cy="22" r="3" fill="#D8A47F"/>
+  </g>
+  <!-- Typography -->
+  <text x="66" y="34" font-family="'Playfair Display', Georgia, serif" font-size="26" font-weight="700" fill="#191A1C" letter-spacing="1.5">ÉLAN</text>
+  <text x="66" y="49" font-family="'DM Sans', sans-serif" font-size="10" font-weight="600" fill="#5C7E67" letter-spacing="3.2">AESTHETIC CLINIC</text>
+</svg>

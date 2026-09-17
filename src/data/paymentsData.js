@@ -1,0 +1,77 @@
+export const INITIAL_PAYMENTS = [
+  {
+    id: 'pay-01',
+    transactionId: 'TXN-984210',
+    appointmentId: 'apt-1001',
+    bookingId: 'ELAN-2026-1001',
+    customerName: 'Emily Watson',
+    customerEmail: 'customer@demo.com',
+    serviceName: 'HydraFacial Elite Rejuvenation',
+    amount: 195,
+    method: 'Credit Card',
+    cardLast4: '4242',
+    status: 'paid', // paid | pending | refunded | failed
+    date: '2026-03-12 10:05 AM',
+    invoiceNumber: 'INV-2026-0891'
+  },
+  {
+    id: 'pay-02',
+    transactionId: 'TXN-984211',
+    appointmentId: 'apt-1002',
+    bookingId: 'ELAN-2026-1002',
+    customerName: 'Alexander Hayes',
+    customerEmail: 'alex.hayes@example.com',
+    serviceName: 'Pico Laser Brightening & Toning',
+    amount: 270,
+    method: 'Apple Pay',
+    cardLast4: '8819',
+    status: 'paid',
+    date: '2026-03-14 02:35 PM',
+    invoiceNumber: 'INV-2026-0892'
+  },
+  {
+    id: 'pay-03',
+    transactionId: 'TXN-984212',
+    appointmentId: 'apt-1003',
+    bookingId: 'ELAN-2026-1003',
+    customerName: 'Sophia Laurent',
+    customerEmail: 'sophia.laurent@example.com',
+    serviceName: 'Profhilo® Hyaluronic Bio-Remodeling',
+    amount: 360,
+    method: 'Pay at Clinic',
+    cardLast4: '—',
+    status: 'pending',
+    date: '2026-03-16 09:20 AM',
+    invoiceNumber: 'INV-2026-0893'
+  },
+  {
+    id: 'pay-04',
+    transactionId: 'TXN-983190',
+    appointmentId: 'apt-1004',
+    bookingId: 'ELAN-2026-1004',
+    customerName: 'Emily Watson',
+    customerEmail: 'customer@demo.com',
+    serviceName: 'Profhilo® Hyaluronic Bio-Remodeling',
+    amount: 450,
+    method: 'Credit Card',
+    cardLast4: '4242',
+    status: 'paid',
+    date: '2026-02-05 11:25 AM',
+    invoiceNumber: 'INV-2026-0812'
+  },
+  {
+    id: 'pay-05',
+    transactionId: 'TXN-983900',
+    appointmentId: 'apt-1007',
+    bookingId: 'ELAN-2026-1007',
+    customerName: 'Alexander Hayes',
+    customerEmail: 'alex.hayes@example.com',
+    serviceName: 'HIFEM Non-Invasive Body Sculpting',
+    amount: 350,
+    method: 'Credit Card',
+    cardLast4: '8819',
+    status: 'refunded',
+    date: '2026-03-05 03:00 PM',
+    invoiceNumber: 'INV-2026-0870'
+  }
+];
